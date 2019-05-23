@@ -1,8 +1,10 @@
 # schedule_24_hour
 Simple 24 hour schedule reminder
 ---------------------------------
-1) Open 'events.txt' and choose your time frame.
-2) Edit the file and type your event between  " "
-   and save the file, example: "My Event".
-3) Open 'events_today.py'.
-4) Follow the prompt to show all your events today.
+1) Download all files.
+2) Edit 'events_today.py' and choose your time frame.
+3) Find the time you want, add the event between  "",
+   and save the file. Example: hour_12_am = "My Event".
+4) Open 'events_today.py'.
+5) Follow the prompt to show all your events today.
+6) Events that were missed will also be printed.
