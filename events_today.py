@@ -75,6 +75,7 @@ schedule_hr = (hour_12_am2,hour_01_am2,hour_02_am2,hour_03_am2,hour_04_am2,
 
 x = 24 - now.hour
 p = now.hour
+r = 0
 
 check = input("Press 'enter' to check your schedule.")
 
@@ -82,5 +83,10 @@ if check == "":
   for i in range(x):
     print(schedule_hr[p],schedule_event[p])
     p += 1
+  print("")
+  print("Missed events:")
+  for i in range(now.hour):
+    print(" {} {}".format(schedule_hr[r],schedule_event[r]))
+    r += 1
 else:
   print("ERROR!")
