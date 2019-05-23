@@ -5,6 +5,7 @@ import datetime
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
+#24 empty variables to edit for events
 hour_12_am = ""
 hour_01_am = ""
 hour_02_am = ""
@@ -31,8 +32,7 @@ hour_09_pm = ""
 hour_10_pm = ""
 hour_11_pm = ""
 
-#----------------------------------------------
-
+#----------variables for time
 hour_12_am2 = "12am:"
 hour_01_am2 = "1am:"
 hour_02_am2 = "2am:"
@@ -59,8 +59,7 @@ hour_09_pm2 = "9pm:"
 hour_10_pm2 = "10pm:"
 hour_11_pm2 = "11pm:"
 
-#--------------------------------------------
-
+#------------tuples for time and event
 schedule_event = (hour_12_am,hour_01_am,hour_02_am,hour_03_am,hour_04_am,
                   hour_05_am,hour_06_am,hour_07_am,hour_08_am,hour_09_am,
                   hour_10_am,hour_11_am,hour_12_pm,hour_01_pm,hour_02_pm,
