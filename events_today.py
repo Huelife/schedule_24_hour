@@ -13,7 +13,7 @@ check = input("Press 'enter' to check your schedule.")
 
 if check == "":
   for i in range(x):
-    print(schedule_dict2[p],schedule_dict[p])
+    print(schedule_hr[p],schedule_event[p])
     p += 1
   #check now hr
   #import events for this hr and rest of day
