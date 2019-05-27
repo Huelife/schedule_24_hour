@@ -1,4 +1,4 @@
-#events_today.py: Current and future events
+#events_today.py: Simply 24 hour schedule for current and future events
 
 import datetime
 
